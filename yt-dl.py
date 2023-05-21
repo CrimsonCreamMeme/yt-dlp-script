@@ -1,6 +1,6 @@
 import os
 thisis=input("Enter URL\n")
-cawk=input("Please chose an option:\n1. Download video/stream.\n2. Download MP3.\n3. Stream download (testing)\n")
+cawk=input("Please chose an option:\n1. Download video/stream.\n2. Download MP3.\n3. Stream download (experimental)\n")
 match cawk:
     case "1":
         os.system('yt-dlp -f "b" '+thisis)
